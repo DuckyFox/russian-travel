@@ -1,0 +1,11 @@
+.page{
+  background-color: #2A2C2F;
+  font-family: 'Inter', sans-serif;
+  color:white;
+  display: flex;
+  flex-direction: column;
+}
+
+.border{
+  outline: solid red 1px;
+}

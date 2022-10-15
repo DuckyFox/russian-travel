@@ -1,0 +1,35 @@
+.header{
+  margin-top: 28px;
+  margin-left: 48px;
+  margin-right: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo{
+  width: 176px;
+  height: 52px;
+}
+
+.header__lang-link{
+  text-decoration: none;
+  color:white;
+  align-self: end;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: right;
+}
+
+.header__lang-links{
+  display: flex;
+  gap: 18px;
+}
+
+.header__lang-link:hover{
+  text-decoration: underline white;
+}
+
+.header__lang-link:active{
+  text-decoration: underline white;
+}
