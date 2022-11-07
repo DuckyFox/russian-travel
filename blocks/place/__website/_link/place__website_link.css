@@ -1,0 +1,13 @@
+.place__website_link{
+  margin: 0;
+  text-decoration: underline;
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.place__website_link:hover{
+  color: rgba(255, 255, 255, 0.678);
+}
+
