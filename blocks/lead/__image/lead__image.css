@@ -2,19 +2,24 @@
   margin: 0 auto;
   max-width: 984px;
   align-self: center;
+  overflow-x: hidden;
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image{
     max-width: 928px;
+    width: 100%;
+    overflow-x: hidden;
   }
 }
 
 @media screen and (max-width: 768px) {
   .lead__image{
     max-width: 768px;
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
+    overflow-x: hidden;
   }
 }
 
@@ -23,5 +28,6 @@
     max-width: 320px;
     margin-left: 0;
     margin-right: 0;
+    overflow-x: hidden;
   }
 }

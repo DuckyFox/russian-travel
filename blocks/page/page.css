@@ -5,9 +5,5 @@
   display: flex;
   flex-direction: column;
   margin:0 auto;
-
-}
-
-.border{
-  outline: solid red 1px;
+  max-width: 1280px;
 }

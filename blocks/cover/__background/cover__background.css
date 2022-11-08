@@ -23,6 +23,7 @@
   background-color: rgba(42, 44, 47, 0.8);
   transition-property: background-color;
   transition-duration: 0.4s;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
@@ -43,6 +44,7 @@
   .cover__background{
     max-width: 320px;
     height: 200px;
+    overflow-x: hidden;
   }
 }
 
@@ -55,7 +57,7 @@
 
 @media screen and (max-width: 768px) {
   .cover__background:before{
-    max-width: 768px;
+    max-width: 751px;
     height: 480px;
   }
 }
@@ -64,5 +66,6 @@
   .cover__background:before{
     max-width: 320px;
     height: 200px;
+    overflow-x: hidden;
   }
 }
