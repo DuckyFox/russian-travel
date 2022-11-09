@@ -2,19 +2,19 @@
   max-width: 284px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .photo-grid__item{
     max-width: 300px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .photo-grid__item{
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 3768px) {
   .photo-grid__item{
     max-width: 288px;
   }

@@ -5,23 +5,24 @@
   max-width: 484px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .place__website{
     margin-left: 32px;
     max-width: 456px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .place__website{
     margin-left: 28px;
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__website{
     max-width: 288px;
     margin-left: 16px;
+    align-self: start;
   }
 }

@@ -7,14 +7,14 @@
   max-width: 484px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1184px) {
   .place__paragraphs{
     margin-left: 32px;
     max-width: 456px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .place__paragraphs{
     margin-left: 28px;
     max-width: 352px;
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .place__paragraphs{
     margin-top: 32px;
     max-width: 288px;
