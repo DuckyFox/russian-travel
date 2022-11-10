@@ -1,4 +1,4 @@
 .cover__link{
   max-width: 1184px;
-  height: 740px;
+  min-height: 740px;
 }

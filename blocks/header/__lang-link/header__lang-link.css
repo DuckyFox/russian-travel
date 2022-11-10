@@ -1,6 +1,6 @@
 .header__lang-link{
+  color: white;
   text-decoration: none;
-  color:white;
   align-self: end;
   font-size: 24px;
   font-weight: 400;
@@ -8,16 +8,8 @@
   text-align: right;
 }
 
-.header__lang-link:hover{
-  text-decoration: underline white;
-}
-
-.header__lang-link:active{
-  text-decoration: underline white;
-}
-
-@media screen and (max-width: 768px) {
-  .hheader__lang-link{
+@media screen and (max-width: 767px) {
+  .header__lang-link{
     font-size: 18px;
     line-height: 20px;
   }

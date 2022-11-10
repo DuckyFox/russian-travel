@@ -12,10 +12,16 @@
   text-decoration: underline 2px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__link{
     font-size: 24px;
     line-height: 24px;
     margin-top: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link:nth-last-of-type(5){
+    margin-top: 0;
   }
 }

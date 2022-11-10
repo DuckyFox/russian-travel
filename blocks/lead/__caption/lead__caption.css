@@ -8,4 +8,17 @@
   text-align: center;
   max-width: 984px;
   align-self: start;
+  text-transform: uppercase
+}
+
+@media screen and (max-width: 950px) {
+  .lead__caption{
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption{
+    margin-left: 16px;
+  }
 }
