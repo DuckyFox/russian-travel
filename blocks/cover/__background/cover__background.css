@@ -14,7 +14,8 @@
   background-color: rgba(42, 44, 47, 30%);
   content: "";
   position: absolute;
-  width: 1184px;
+  min-width: 1184px;
+  width: 100%;
   min-height: 740px;
   z-index: 1;
 }
@@ -29,9 +30,7 @@
 @media screen and (max-width: 1184px) {
   .cover__background{
     min-width: 1024px;
-    width: 100%;
     min-height: 640px;
-    overflow: hidden;
   }
 }
 
@@ -52,7 +51,6 @@
 @media screen and (max-width: 1184px) {
   .cover__background:before{
     min-width: 1024px;
-    width: 100%;
     min-height: 640px;
   }
 }
