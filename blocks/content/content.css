@@ -3,3 +3,24 @@
   flex-direction: column;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1184px) {
+  .content{
+    max-width: 1024px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .content{
+    max-width: 768px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content{
+    max-width: 320px;
+    width: 100%;
+  }
+}
